@@ -55,11 +55,13 @@ main{
 
 
 .conteudo{
-    width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 .box-cont{
     display: flex;
-    width: 100%;
+    width: 300px;
     flex-direction: column;
 }
 
